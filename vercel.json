@@ -16,7 +16,10 @@
             "src": "/another",
             "dest": "ui/build/another.html"
         },
-
+        {
+            "src": "/item/(.+)",
+            "dest": "ui/build/item.html"
+        },
         {
             "src": "/(.+)",
             "dest": "ui/build/$1"
