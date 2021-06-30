@@ -13,6 +13,11 @@
             "dest": "ui/build/index.html"
         },
         {
+            "src": "/another",
+            "dest": "ui/build/another.html"
+        },
+
+        {
             "src": "/(.+)",
             "dest": "ui/build/$1"
         }
