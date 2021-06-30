@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "env": {},
+    "builds": [
+        {
+            "src": "ui/build/**",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "ui/build/index.html"
+        }
+    ]
+}
